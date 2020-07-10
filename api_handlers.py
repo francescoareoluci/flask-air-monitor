@@ -56,7 +56,7 @@ def getSummaryData(deviceName):
         return jsonResponse
 
     ## Sort list in descending order
-    files.sort(reverse=True)
+    files.sort()
     
     ## @TODO: add try catch
     for file in files:

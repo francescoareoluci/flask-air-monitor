@@ -1,14 +1,16 @@
 from flask import Flask
 from flask import request
-from flask_cors import CORS
+from flask_cors import CORS, cross_origin
 import utils as utils
 import api_handlers as handlers
 
 app = Flask(__name__)
 CORS(app)
+app.config['CORS_HEADERS'] = 'Content-Type'
 
 
 @app.route('/api/registered-devices')
+@cross_origin()
 def handleConfiguredDevices():
     jsonResult = handlers.getStoredDevices()
 
@@ -16,6 +18,7 @@ def handleConfiguredDevices():
 
 
 @app.route('/api/summary-data')
+@cross_origin()
 def handleSummaryData():
     device = request.args.get('device-name')
 
@@ -29,6 +32,7 @@ def handleSummaryData():
 
 
 @app.route('/api/device-data')
+@cross_origin()
 def handleDeviceData():
     device = request.args.get('device-name')
     startDate = request.args.get('from')

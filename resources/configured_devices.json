@@ -1,0 +1,29 @@
+{
+  "devices": [
+    {
+      "name": "SMART09",
+      "latitude": "43.7882423",
+      "longitude": "11.2266454"
+    },
+    {
+      "name": "SMART01",
+      "latitude": "43.7744283",
+      "longitude": "11.25508"
+    },
+    {
+      "name": "SMART28",
+      "latitude": "43.7996954",
+      "longitude": "11.244005"
+    },
+    {
+      "name": "SMART04",
+      "latitude": "43.7526595",
+      "longitude": "11.2310913"
+    },
+    {
+      "name": "SMART07",
+      "latitude": "43.5736817",
+      "longitude": "10.3144433"
+    }
+  ]
+}

@@ -8,7 +8,7 @@ Flask==1.1.2
 Flask-Cors==3.0.9
 idna==2.10
 itsdangerous==1.1.0
-Jinja2==2.11.2
+Jinja2==2.11.3
 MarkupSafe==1.1.1
 pip==20.1.1
 pycparser==2.20

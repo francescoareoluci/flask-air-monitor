@@ -10,7 +10,7 @@ idna==2.10
 itsdangerous==1.1.0
 Jinja2==2.11.3
 MarkupSafe==1.1.1
-pip==20.1.1
+pip==21.1
 pycparser==2.20
 pyOpenSSL==19.1.0
 PySocks==1.7.1
